@@ -4,3 +4,5 @@ document.querySelector('[data-site-header]')?.replaceWith(document.createRange()
 document.querySelector('[data-site-footer]')?.replaceWith(document.createRange().createContextualFragment(sharedFooter));
 const englishPage = location.pathname.split('/').pop() || 'index.html';
 document.querySelector('.language-toggle')?.setAttribute('href', `../${englishPage}`);
+
+document.querySelector('.nav-button')?.after(document.querySelector('.language-toggle'));
