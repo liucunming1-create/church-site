@@ -2,3 +2,12 @@ const sharedHeader = `<header class="site-header"><div class="utility-bar"><div 
 const sharedFooter = `<footer class="site-footer"><div class="wrap footer-grid"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">✦</span><span>晨光教会</span></a><p>愿你平安，并在这里找到同行的人。</p><p>© <span id="year"></span> 晨光教会 · 网站模板</p></div></footer>`;
 document.querySelector('[data-site-header]')?.replaceWith(document.createRange().createContextualFragment(sharedHeader));
 document.querySelector('[data-site-footer]')?.replaceWith(document.createRange().createContextualFragment(sharedFooter));
+
+const chinesePage = location.pathname.split('/').pop() || 'index.html';
+document.querySelector('.language-toggle')?.setAttribute('href', `en/${chinesePage}`);
+
+const languageToggle = document.createElement('a');
+languageToggle.className = 'language-toggle';
+languageToggle.href = `en/${chinesePage}`;
+languageToggle.textContent = 'EN';
+document.querySelector('.nav-button')?.before(languageToggle);
