@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 920" role="img" aria-labelledby="title desc">
+  <title id="title">傍晚的教会</title><desc id="desc">一座亮着暖光的现代教会建筑与树影</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081d2e"/><stop offset=".6" stop-color="#244d6e"/><stop offset="1" stop-color="#d18b54"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e1c7a7"/><stop offset="1" stop-color="#8b6b56"/></linearGradient>
+    <linearGradient id="window" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffd886"/><stop offset="1" stop-color="#a8532d"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#ffd376" stop-opacity=".75"/><stop offset="1" stop-color="#f1a75d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1800" height="920" fill="url(#sky)"/>
+  <circle cx="300" cy="590" r="370" fill="url(#glow)"/><path d="M0 690C300 615 480 700 700 648S1180 650 1800 520V920H0Z" fill="#102d34"/>
+  <path d="M940 710V350l290-245 355 245v360Z" fill="url(#wall)"/><path d="M1230 105v605" stroke="#25333b" stroke-width="15"/><path d="M940 350l290-245 355 245" fill="none" stroke="#f1d6ae" stroke-width="18"/>
+  <path d="M1080 408h220v302h-220Z" fill="url(#window)"/><path d="M1080 485h220M1190 408v302" stroke="#51372d" stroke-width="12"/><path d="M1330 390h150v320h-150Z" fill="url(#window)"/><path d="M1330 470h150M1405 390v320" stroke="#51372d" stroke-width="10"/>
+  <path d="M910 710h610v36H910Z" fill="#513f38"/><path d="M780 920 1010 710h600l190 210Z" fill="#1b3441"/>
+  <g fill="#102e29"><path d="M0 0h175v680H0Z"/><circle cx="90" cy="145" r="190"/><circle cx="240" cy="190" r="155"/><circle cx="30" cy="390" r="170"/><path d="M340 170h65v560h-65Z"/><circle cx="365" cy="170" r="105"/></g>
+  <g fill="#203f32"><circle cx="680" cy="600" r="105"/><rect x="650" y="600" width="55" height="150"/><circle cx="1640" cy="585" r="125"/><rect x="1608" y="590" width="64" height="160"/></g>
+  <g fill="#ffd47d"><circle cx="1015" cy="760" r="7"/><circle cx="1120" cy="760" r="7"/><circle cx="1240" cy="760" r="7"/><circle cx="1370" cy="760" r="7"/><circle cx="1500" cy="760" r="7"/></g>
+</svg>
