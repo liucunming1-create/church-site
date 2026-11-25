@@ -11,3 +11,5 @@ languageToggle.className = 'language-toggle';
 languageToggle.href = `en/${chinesePage}`;
 languageToggle.textContent = 'EN';
 document.querySelector('.nav-button')?.before(languageToggle);
+
+document.querySelector('.nav-button')?.after(languageToggle);
