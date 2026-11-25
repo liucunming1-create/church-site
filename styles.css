@@ -246,3 +246,11 @@ h2 { font-size: clamp(2.3rem, 4.1vw, 4.1rem); margin: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: .01ms !important; } }
+
+
+/* Language switch emphasis */
+.nav-button { border: 0; font-weight: inherit; letter-spacing: normal; padding: 0; transition: color .2s ease; }
+.nav-button:hover, .nav-button:focus { background: transparent; color: var(--gold); }
+.language-toggle { border: 1px solid rgba(255,255,255,.65); display: inline-block; font-weight: 600; letter-spacing: .03em; opacity: 1 !important; padding: .5rem 1rem; transition: .2s ease; }
+.language-toggle:hover, .language-toggle:focus { background: white; color: var(--deep); }
+@media (max-width: 760px) { .site-nav .nav-button { border: 0; margin-top: 0; text-align: left; } .site-nav .language-toggle { border: 1px solid rgba(255,255,255,.6); margin-top: .7rem; text-align: center; } }
